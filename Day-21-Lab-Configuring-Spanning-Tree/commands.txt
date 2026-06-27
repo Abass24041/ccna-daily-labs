@@ -1,0 +1,9 @@
+sh spanning-tree
+spanning-tree vlan 1 root primary
+spanning-tree vlan 2 root secondary
+do wr
+spanning-tree vlan 2 root primary
+spannig-tree vlan 1 root secondary
+spanning-tree vlan 1 cost 100
+spanning-tree portfast 
+spanning-tree bpduguard enable 
