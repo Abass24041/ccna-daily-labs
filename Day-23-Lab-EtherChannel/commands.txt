@@ -1,0 +1,9 @@
+just the important commands 
+channel-protocol pagp
+channel-group 1 mode desirable
+etherchannel summary
+etherchannel 
+channel-protocol lacp
+channel-group 1 mode active
+channel-group 1 mode on
+channel-group 1 mode on
