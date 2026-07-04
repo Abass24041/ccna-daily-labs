@@ -1,0 +1,6 @@
+when i configure layer 3 , i make mustake  but i sovle , my advice :
+-for interfaces range just run these commands  :
+    no switchport 
+    channel-protocol 
+    channel-group x mode 
+-after chose  int pox and add your ip 
