@@ -1,0 +1,4 @@
+show spanning-tree
+spanning-tree link-type point-to-point 
+spanning-tree link-type shared 
+spanning-tree portfast
