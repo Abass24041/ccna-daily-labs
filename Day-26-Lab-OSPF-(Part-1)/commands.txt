@@ -1,0 +1,10 @@
+hostname 
+ip addr 
+no shutdown 
+do wr
+int loopback 0
+passive-interface loopback 0
+network 10.0.24.0 0.0.0.3 area 0
+router ospf 1
+sh ip route ospf 
+default-information originate 

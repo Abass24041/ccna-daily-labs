@@ -1,0 +1,1 @@
+any interface have  host network you like shared you need to enable commmand network 

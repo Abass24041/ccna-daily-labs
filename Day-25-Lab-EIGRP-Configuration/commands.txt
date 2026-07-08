@@ -1,0 +1,8 @@
+ip addr 10.0.24.1 255.255.255.252
+no shutdown 
+hostname
+int loopback 0
+passive-interface loopback 0
+variane 
+router eigrp
+network 0.0.0.0 255.255.255.255
