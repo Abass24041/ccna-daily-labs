@@ -1,1 +1,2 @@
 auto-cost reference-bandwidth 10000
+ip opsf 1 area 0

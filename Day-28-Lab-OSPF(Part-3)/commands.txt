@@ -1,0 +1,8 @@
+do show controllers Serial0/0/0
+sh ip protocols 
+sh ip ospf
+sh ip ospf  neighbor
+sh ip ospf int br
+sh ip ospf int G0/0
+ip ospf hello-interval 10
+ip ospf dead-interval 40
