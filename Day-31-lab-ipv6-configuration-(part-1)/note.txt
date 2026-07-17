@@ -1,0 +1,1 @@
+remembre if forget ipv6 unicast-routing the router can't do routing betwwen network
