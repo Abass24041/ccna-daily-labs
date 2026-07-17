@@ -1,0 +1,4 @@
+ipv6 unicast-routing
+ipv6 addr 
+sh ivp6 route
+sh ipv6 int br
