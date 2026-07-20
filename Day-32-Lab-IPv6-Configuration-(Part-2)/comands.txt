@@ -1,0 +1,5 @@
+ipv6 addr 2001:db8::/64 eui-64
+ipv6 enable 
+ipv6 route 2001:db8::/64 g0/0   FE80::230:F2FF:FE36:4502
+do sh ipv6 route
+do sh ipv6 route
