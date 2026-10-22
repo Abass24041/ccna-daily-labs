@@ -1,0 +1,7 @@
+router ospf 1
+network 203.0.113.1 0.0.0.0
+ip ospf 1 area show ip protocols 
+access-list 1 deny 172.16.1.0 0.0.0.255 
+access-list 1 pemit any
+ip access-list standard rech_server_2
+sh access-lists 
