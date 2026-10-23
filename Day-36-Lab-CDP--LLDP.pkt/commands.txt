@@ -1,0 +1,9 @@
+sh cdp
+sh ip int br
+sh cdp nei
+sh cdp nei details
+no cdp run 
+lldp run
+lldp transmit 
+lldp receive
+no cdp enable 
