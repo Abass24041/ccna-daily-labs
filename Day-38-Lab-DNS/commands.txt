@@ -1,0 +1,5 @@
+ip domain name 1.1.1.1
+ip host R1 192.168.0.254 
+ip host PC1 192.168.0.1
+ip host PC2 192.168.0.2
+ip host PC3 192.168.0.3
