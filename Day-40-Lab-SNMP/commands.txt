@@ -1,0 +1,2 @@
+snmp-server community Cisco1 ro
+snmp-server community Cisco2 rw
