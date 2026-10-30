@@ -1,0 +1,4 @@
+service timestamps log datetime msec 
+telnet 192.168.1.1
+logging buffered 8192
+logging trap debugging
