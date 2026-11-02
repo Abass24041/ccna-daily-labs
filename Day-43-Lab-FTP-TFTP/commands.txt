@@ -1,0 +1,14 @@
+R1#copy tftp: flash:
+Address or name of remote host []? 10.0.0.1
+Source filename []? c2900-universalk9-mz.SPA.155-3.M4a.bin
+Destination filename [c2900-universalk9-mz.SPA.155-3.M4a.bin]?
+boot system  c2900-universalk9-mz.SPA.155-3.M4a.bin
+R1#delete c2900-universalk9-mz.SPA.151-4.M4.bin
+Delete filename [c2900-universalk9-mz.SPA.151-4.M4.bin]?
+Delete flash:/c2900-universalk9-mz.SPA.151-4.M4.bin? [confirm]
+ip ftp username jeremy
+ip ftp password ccna 
+R2#copy ftp: flash:
+Address or name of remote host []? 10.0.0.1
+Source filename []? c2900-universalk9-mz.SPA.155-3.M4a.bin
+Destination filename [c2900-universalk9-mz.SPA.155-3.M4a.bin]? 

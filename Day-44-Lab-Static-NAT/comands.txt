@@ -1,0 +1,6 @@
+ip nat inside 
+ip nat outside
+ip nat inside source static 172.16.0.1 100.0.0.1
+sh ip nat translations 
+sh ip nat statistics 
+clear ip nat translation *
